@@ -24,4 +24,4 @@ We expect you to deliver your final code with one of these options:
 
 - You can open a Pull Request to this Github repository.
 - You can send to us the link for your repository (make sure to make it public).
-- Send a video using [Loom] (https://www.loom.com/), explaining your decisions and showing the code structure.
+- Send a video using [Loom](https://www.loom.com/), explaining your decisions and showing the code structure.
