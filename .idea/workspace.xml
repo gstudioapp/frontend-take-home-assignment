@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54a1d923-ee21-46e1-92ec-1d144289739b" name="Default Changelist" comment="refactor: adding the boilerplate project to the assignment.">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Paliao &lt;andre_paliao@hotmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="ProjectId" id="1hh8RiXbWBGGRQ5uH6ZwUsx310v" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54a1d923-ee21-46e1-92ec-1d144289739b" name="Default Changelist" comment="" />
+      <created>1600451956493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600451956493</updated>
+      <workItem from="1600451959538" duration="4863000" />
+    </task>
+    <task id="LOCAL-00001" summary="refactor: adding the boilerplate project to the assignment.">
+      <created>1600457178267</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600457178267</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor: adding the boilerplate project to the assignment." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: adding the boilerplate project to the assignment." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="174" y="0" key="CommitChangelistDialog2" timestamp="1600457178074">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="174" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1600457178074" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1600457179319">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600457179319" />
+    <state x="555" y="234" width="661" height="518" key="find.popup" timestamp="1600453413015">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="2427" y="-491" width="586" height="518" key="find.popup/0.0.1440.900/1440.-772.2560.1080@1440.-772.2560.1080" timestamp="1600452548973" />
+    <state x="555" y="234" width="661" height="518" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1600453413015" />
+    <state x="532" y="201" width="670" height="564" key="search.everywhere.popup" timestamp="1600453415023">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="2385" y="-531" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.-772.2560.1080@1440.-772.2560.1080" timestamp="1600452142162" />
+    <state x="532" y="201" width="670" height="564" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1600453415023" />
+  </component>
+</project>
