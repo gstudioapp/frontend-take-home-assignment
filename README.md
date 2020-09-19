@@ -8,7 +8,7 @@ Hey there! 👋 Thanks for your interest in working with us! The next step in ou
 - Please be sure your audio is clear and your camera is on when you answer the questions. You will need to create a second video that records your screen for the code share.
 - Contact me (Jair) if you have issues with the assigment.
 
-## The Assignment
+# The Assignment
 Develop a dashboard interface following the link specifications: [Figma Layout Mockup](https://www.figma.com/file/dyQjea3CuFLm14QdFT1rLW/gStudio-Frontend-Take-Home-Assignment?node-id=0%3A1)
 
 # Questions
