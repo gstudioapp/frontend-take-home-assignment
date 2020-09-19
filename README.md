@@ -25,8 +25,8 @@ We expect you to go in-depth on at the following questions:
 2. Develop the interface as close as possible to the mockup.
 3. Implement component theme, rules, props and make it able to interact with external data.
 4. Test a piece of the codebase. You can choose which part and functions to test.
-5. Implement motion/animation transictions for the first card component, on the accordion transition. Surprise us choosing by yourself which aspects to implement.
-6. We recommend you to follow strictly our React Stack including [Chakra-UI](https://chakra-ui.com/), Framer Motion (https://www.framer.com/motion/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro). But it is not a requirement.
+5. Implement motion/animation transitions for the first card component, on the accordion transition. Surprise us choosing by yourself which aspects to implement.
+6. We recommend you to follow strictly our React Stack including [Chakra-UI](https://chakra-ui.com/), [Framer Motion](https://www.framer.com/motion/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro). But it is not a requirement.
 
 # Delivery Instructions
 
