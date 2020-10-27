@@ -1,6 +1,6 @@
 # gStudio Frontend Take Home Assignment
 
-Hey there! 👋 Thanks for your interest in working with us! The next step in our hiring process is a virtual code interview. Below you will see 3 questions and a code work section. We ask you to record yourself answering the 3 questions and your screen when code sharing with Loom ([http://loom.com/](http://loom.com/)). Loom is a free video recording software that will provide you links which you will send us. Please send us 1 video link, answering the questions and explaining your code structure.
+Hey there! 👋 Thanks for your interest in working with us! The next step in our hiring process is a virtual code interview. Below you will see 3 questions and a code work section.  We ask you to record yourself answering the 3 questions and sharing your screen presenting the code developed with Loom ([http://loom.com/](http://loom.com/)). Loom is a free video recording software that will provide you links which you will send us. Please send us 1 video link, answering the questions and explaining your code structure.
 
 **Something things to keep in mind:**
 
