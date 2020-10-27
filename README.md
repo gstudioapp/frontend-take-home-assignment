@@ -4,7 +4,7 @@ Hey there! 👋 Thanks for your interest in working with us! The next step in ou
 
 **Something things to keep in mind:**
 
-- We recommend you do a practice run so that you can get accustomed with Loom's software and our questions. Reading the "Code Share Checklist" and "Code Share Questions" beforehand will help pick the best project to share.
+- We recommend you do a practice run so that you can get accustomed with Loom's software and our questions.
 - Please be sure your audio is clear and your camera is on when you answer the questions. You will need to create a second video that records your screen for the code share.
 - Contact me (Jair) if you have issues with the assigment.
 
