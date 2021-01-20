@@ -1,14 +1,13 @@
-import { CSSReset, ThemeProvider } from '@chakra-ui/core';
+import { ChakraProvider } from '@chakra-ui/react';
 import React, { FC } from 'react';
 
 import { Main } from 'layouts/Main';
-import {theme} from 'theme';
+import theme from 'theme';
 
 export const GlobalProvidersWrapper: FC = ({ children }) => (
   <Main>
-    <ThemeProvider theme={theme}>
-      <CSSReset />
+    <ChakraProvider theme={theme}>
       {children}
-    </ThemeProvider>
+    </ChakraProvider>
   </Main>
 );

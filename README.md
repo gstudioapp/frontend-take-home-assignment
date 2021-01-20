@@ -1,22 +1,27 @@
 # gStudio Frontend Take Home Assignment
 
 ## The Assignment
-Explain us how would you develop a dashboard interface like this: [Figma Layout Mockup](https://www.figma.com/file/dyQjea3CuFLm14QdFT1rLW/gStudio-Frontend-Take-Home-Assignment?node-id=0%3A1)
+- Explain us how would you develop a dashboard interface like this: [Figma Layout Mockup](https://www.figma.com/file/dyQjea3CuFLm14QdFT1rLW/gStudio-Frontend-Take-Home-Assignment?node-id=0%3A1)
 
-We expect you to go in-depth on at least the following questions:
+### Expectations
+- We expect you to read the chakra-ui docs, and use their design system to create the components
+- We expect simple and well written components, always using the hooks from React
+- Your components should receive props that should be typed with typescript
+- If we exchange the theme, your components should respect it
 
+### Questions
 - How will you organize the interface components and name them?
-- Will you use a component library? Which one? Explain why.
-- How will you document the components to make them public for other members of your team can reuse components in the future?
-- Pick one component and implement it. 
+- How will you document the components?
+- How will you handle the design system usage?
+- How would you organize your components in a scalable application architecture? 
+- How would you make your component change with provided variants for itself?
 
 # Development Instructions
 
-1. Once you have opened the link you must sign up and log in so you can have access to the colors, fonts, margins and assets information.
-2. Develop the component as close as possible to the mockup.
-3. Implement component rules, props and make it able to interact with external data.
-4. Document the component.
-5. Test the codebase.
+1. Develop the component as close as possible to the mockup.
+2. Implement component rules, props and make it able to interact with external data.
+3. Document the component.
+4. Test the codebase.
 
 # Delivery Instructions
 
