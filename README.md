@@ -26,6 +26,7 @@ We expect you to go in-depth on at the following questions:
 3. How could you share data and states information between the cards? Tell us about one simple and one complex way and how to decide which one to implement.
 4. How would you organize your components in a scalable application architecture providing support to create components variants, and reuse them in a simple and elegant pattern?
 
+
 # Development Instructions
 
 1. Once you have opened the link you must sign up and log in so you can have access to the colors, fonts, margins and assets information.
@@ -34,6 +35,7 @@ We expect you to go in-depth on at the following questions:
 4. Test a piece of the codebase. You can choose which part and functions to test.
 5. Implement motion/animation transitions for the first card component, on the accordion transition. Surprise us by choosing for yourself which aspects to implement.
 6. We recommend you follow strictly our React stack including Typescript, [Chakra-UI](https://chakra-ui.com/), [Framer Motion](https://www.framer.com/motion/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro). But it is not a requirement.
+
 
 # Delivery Instructions
 
