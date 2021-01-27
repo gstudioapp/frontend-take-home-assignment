@@ -1,6 +1,7 @@
-import { AppProps } from 'next/app';
 import React from 'react';
-import {GlobalProvidersWrapper} from "components/GlobalProvidersWrapper";
+
+import { AppProps } from 'next/app';
+import { GlobalProvidersWrapper } from "components";
 
 function App({ Component, pageProps }: AppProps) {
   return (

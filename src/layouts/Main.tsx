@@ -1,9 +1,10 @@
 import React from 'react';
 import Head from 'next/head';
+
 import { FC } from 'react';
 import { Global, css } from '@emotion/react';
 
-export const Main: FC = ({ children }) => {
+const Main: FC = ({ children }) => {
   return (
     <>
       <Head>
@@ -30,3 +31,5 @@ export const Main: FC = ({ children }) => {
     </>
   );
 };
+
+export default Main;
