@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { ISidebarItem } from 'components/UiSidebar/index';
-import { GlobalProvidersWrapper, UiSidebar } from 'components';
+import { GlobalProvidersWrapper, UiAvatar, UiSidebar } from 'components';
 import { Flex } from '@chakra-ui/react';
 import {
   ColorSwatchOutline,
@@ -29,8 +29,13 @@ const UiLayout: FC = ({ children }) => {
 
   return (
     <GlobalProvidersWrapper>
-      <Flex height="100%">
-        <UiSidebar sidebarItems={sidebarItems} />
+      <Flex height="100vh">
+        <UiSidebar sidebarItems={sidebarItems}>
+          <UiAvatar
+            userName="Jair Junior"
+            imageSrc="https://bit.ly/dan-abramov"
+          />
+        </UiSidebar>
         {children}
       </Flex>
     </GlobalProvidersWrapper>
