@@ -22,17 +22,17 @@ const UiSidebar: FC<ISidebarProps> = ({ sidebarItems, children }) => {
     <Box
       bg="white"
       width="191px"
+      height="100%"
       minWidth="191px"
-      height="auto"
       borderTopRightRadius="20px"
       borderBottomRightRadius="20px"
     >
-      <Box paddingX="3" paddingTop="6" paddingBottom="5">
+      <Box paddingX="3" paddingTop="6" height="auto" paddingBottom="5">
         <Flex width="100%" justifyContent="center" marginBottom="2.6rem">
           <Logo />
         </Flex>
         {sidebarItems?.map(({ icon, path, label }, index) => (
-          <Link href={path}>
+          <Link href={path} key={index}>
             <Button
               isFullWidth
               variant="ghost"
@@ -53,7 +53,13 @@ const UiSidebar: FC<ISidebarProps> = ({ sidebarItems, children }) => {
         ))}
       </Box>
       {children && (
-        <Box borderTop="sm" borderColor="gray.50" padding="3" paddingTop="5">
+        <Box
+          height="auto"
+          borderTop="sm"
+          borderColor="gray.50"
+          padding="4"
+          paddingTop="5"
+        >
           {children}
         </Box>
       )}

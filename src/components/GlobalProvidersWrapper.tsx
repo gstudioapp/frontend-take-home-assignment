@@ -6,9 +6,7 @@ import theme from 'theme';
 
 const GlobalProvidersWrapper: FC = ({ children }) => (
   <Main>
-    <ChakraProvider theme={theme}>
-      {children}
-    </ChakraProvider>
+    <ChakraProvider theme={theme}>{children}</ChakraProvider>
   </Main>
 );
 

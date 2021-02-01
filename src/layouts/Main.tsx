@@ -4,6 +4,19 @@ import Head from 'next/head';
 import { FC } from 'react';
 import { Global, css } from '@emotion/react';
 
+const styles = css`
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+  html,
+  body,
+  #__next {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    background: #f8f8f8;
+  }
+`;
+
 const Main: FC = ({ children }) => {
   return (
     <>
@@ -16,17 +29,7 @@ const Main: FC = ({ children }) => {
         />
         <link rel="preconnect" href="https://fonts.gstatic.com"></link>
       </Head>
-      <Global
-        styles={css`
-          html,
-          body,
-          #__next {
-            height: 100%;
-            width: 100%;
-            scroll-behavior: smooth;
-          }
-        `}
-      />
+      <Global styles={styles} />
       {children}
     </>
   );
