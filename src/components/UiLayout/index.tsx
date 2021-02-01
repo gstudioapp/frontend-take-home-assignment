@@ -13,17 +13,17 @@ const UiLayout: FC = ({ children }) => {
     {
       label: 'Projects',
       path: '/projects',
-      icon: <ViewGridOutline width="22px" />,
+      icon: <ViewGridOutline width="1.3rem" />,
     },
     {
       label: 'Themes',
       path: '/themes',
-      icon: <ColorSwatchOutline width="22px" />,
+      icon: <ColorSwatchOutline width="1.3rem" />,
     },
     {
       label: 'Examples',
       path: '/examples',
-      icon: <StarOutline width="22px" />,
+      icon: <StarOutline width="1.3rem" />,
     },
   ];
 
