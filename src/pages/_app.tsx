@@ -1,15 +1,14 @@
 import React from 'react';
 
 import { AppProps } from 'next/app';
-import { GlobalProvidersWrapper } from "components";
+import { UiLayout } from 'components';
 
 function App({ Component, pageProps }: AppProps) {
   return (
-    <GlobalProvidersWrapper>
+    <UiLayout>
       <Component {...pageProps} />
-    </GlobalProvidersWrapper>
+    </UiLayout>
   );
 }
-
 
 export default App;
