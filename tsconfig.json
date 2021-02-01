@@ -1,11 +1,7 @@
 {
   "extends": "./tsconfig.base",
   "compilerOptions": {
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "skipLibCheck": true,
     "strict": false,
     "noEmit": true,
@@ -17,16 +13,10 @@
     "forceConsistentCasingInFileNames": false,
     "baseUrl": "./src",
     "paths": {
-      "*": [
-        "*"
-      ]
+      "*": ["*"]
     }
   },
-  "exclude": [
-    "node_modules",
-    "build",
-    ".next"
-  ],
+  "exclude": ["node_modules", "build", ".next"],
   "include": [
     "next-env.d.ts",
     "types/**/*.d.ts",
