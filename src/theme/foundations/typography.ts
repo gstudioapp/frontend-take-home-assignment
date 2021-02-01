@@ -1,6 +1,6 @@
 export const fonts = {
-  body: 'Helvetica Neue, system-ui, sans-serif',
-  heading: 'Gilroy, system-ui, sans-serif',
+  body: 'Rubik, Helvetica Neue, system-ui, sans-serif',
+  heading: 'Nunito, Gilroy, system-ui, sans-serif',
   mono: 'Helvetica Neue, system-ui, sans-serif',
 };
 
