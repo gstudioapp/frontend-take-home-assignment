@@ -1,16 +1,10 @@
 const path = require('path');
-
-const modules = [
-  'components',
-  'lib',
-  'pages',
-  'type',
-];
+const modules = ['components', 'lib', 'pages', 'type'];
 
 function aliasBuilder(modules) {
   return modules.reduce(
     (alias, name) => ({ ...alias, [name]: sourcePathResolve(name) }),
-    {},
+    {}
   );
 }
 

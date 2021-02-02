@@ -4,17 +4,27 @@ module.exports = {
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'svg'],
   moduleNameMapper: {
     '\\.(css|less)$': '<rootDir>/__mocks__/styleMock.js',
+    '^components/(.*)': '<rootDir>/src/components/$1',
+    '^pages/(.*)': '<rootDir>/src/pages/$1',
   },
+  collectCoverageFrom: [
+    '**/*.{ts,tsx}',
+    '!**/node_modules/**',
+    '!**/coverage/**',
+    '!**/index.tsx',
+    '!**/*.d.ts',
+  ],
+  setupFiles: [],
+  modulePaths: ['<rootDir>'],
+  testPathIgnorePatterns: ['./.next/'],
+  testMatch: ['**/__tests__/*.(ts|tsx)', '**/*.test.(ts|tsx)'],
+  setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
   transform: {
     '^.+\\.(ts|tsx)$': 'ts-jest',
   },
-  testMatch: ['**/__tests__/*.(ts|tsx)', '**/*.test.(ts|tsx)'],
-  setupFiles: [],
-  testPathIgnorePatterns: ['./.next/'],
   globals: {
     'ts-jest': {
-      tsConfig: 'tsconfig.jest.json',
+      tsconfig: 'tsconfig.jest.json',
     },
   },
-  modulePaths: ['./src', './node_modules'],
 };

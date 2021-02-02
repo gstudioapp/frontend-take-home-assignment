@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UiPage /> should render the page with a sample content 1`] = `
+<div>
+  <div
+    class="css-anx49o"
+  >
+    That's a sample content for the page
+  </div>
+</div>
+`;

@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { Progress, ProgressProps, Flex, Box } from '@chakra-ui/react';
 
-interface IProps extends ProgressProps {
+export interface IProps extends ProgressProps {
   leftIcon?: JSX.Element;
   iconColor?: string;
 }

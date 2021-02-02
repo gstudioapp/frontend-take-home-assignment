@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UiCard /> should render the card with a sample content 1`] = `
+<div>
+  <div
+    class="css-lfqrmw"
+  >
+    That's a sample content
+  </div>
+</div>
+`;

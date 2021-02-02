@@ -27,7 +27,7 @@ const Main: FC = ({ children }) => {
           name="viewport"
           content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
-        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
       </Head>
       <Global styles={styles} />
       {children}
