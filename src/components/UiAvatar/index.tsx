@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import { Avatar, Box, Flex, Text } from '@chakra-ui/react';
 import { DotsVerticalSolid } from '@graywolfai/react-heroicons';
 
-interface IProps {
+export interface IProps {
   imageSrc: string;
   userName: string;
 }
