@@ -2,7 +2,6 @@ import React from 'react';
 
 import { NextPage } from 'next';
 import { UiCard, UiPage, UiProgress } from 'components';
-import { LightBulbOutline } from '@graywolfai/react-heroicons';
 
 import {
   ArrowNarrowRightSolid,
@@ -10,6 +9,7 @@ import {
   ChevronDownSolid,
   ChevronUpSolid,
   ClipboardCheckOutline,
+  LightBulbOutline,
   LightningBoltOutline,
 } from '@graywolfai/react-heroicons';
 

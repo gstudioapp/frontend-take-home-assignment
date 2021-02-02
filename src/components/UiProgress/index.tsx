@@ -1,12 +1,12 @@
 import React, { FC } from 'react';
 import { Progress, ProgressProps, Flex, Box } from '@chakra-ui/react';
 
-export interface IProps extends ProgressProps {
+export interface IProgressProps extends ProgressProps {
   leftIcon?: JSX.Element;
   iconColor?: string;
 }
 
-const UiProgress: FC<IProps> = ({ leftIcon, iconColor, ...props }) => (
+const UiProgress: FC<IProgressProps> = ({ leftIcon, iconColor, ...props }) => (
   <Flex alignItems="center" width="100%">
     {leftIcon && (
       <Box marginRight="1rem" color={iconColor}>

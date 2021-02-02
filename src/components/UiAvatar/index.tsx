@@ -2,12 +2,12 @@ import React, { FC } from 'react';
 import { Avatar, Box, Flex, Text } from '@chakra-ui/react';
 import { DotsVerticalSolid } from '@graywolfai/react-heroicons';
 
-export interface IProps {
+export interface IAvatarProps {
   imageSrc: string;
   userName: string;
 }
 
-const UiAvatar: FC<IProps> = ({ userName, imageSrc }) => {
+const UiAvatar: FC<IAvatarProps> = ({ userName, imageSrc }) => {
   return (
     <Flex justifyContent="space-between" alignItems="center">
       <Flex alignItems="center" isTruncated={true}>
